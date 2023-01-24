@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  background-color:rgb(41, 44, 73);
+  color:white;
+  text-shadow:0.1rem 0.06rem yellow;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+img{
+  border:0.3rem solid yellow;
+  border-radius: 100%;
+  width:7rem;
+  height:6rem;
+}
+
+input,button{
+  text-align:center;
+  width:20rem;
+  height:2.5rem;
+  padding:1.5rem;
+}
+
+input{
+  color:purple;
+  font-weight:bold;
+  font-size:1rem;
+  text-shadow:0.1rem 0rem yellow;
+  margin-bottom:0.3rem;
+  background-color: rgb(181, 198, 196);
+}
+
+input:hover{
+  background-color: aqua;
+}
+
+.btn{
+  color:yellow;
+  text-shadow:0.13rem 0.02rem black;
+  height:3.2rem;
+  margin-top:0.5rem;
+  font-size:1.5rem;
+}
+
+.top{
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  margin-top: 2rem;
+}
+
+.bottom{
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+::placeholder{
+  opacity:1;
+  color:blue;
+  opacity:0.5;
+}
+
+.jumbotron-fluid{
+  border:0.2rem solid yellow;
+  box-shadow:1rem 1rem yellow;
+  padding:2rem;
+  position:absolute;
+  top:5rem; 
+  left:5rem;
+}
+
+.lead{
+  font-size:1.5rem;
+  text-shadow:0.06rem 0.06rem yellow;
+  font-weight:500;
+}
+
+.wrong-attempt{
+  color:red;
+  font-weight: bolder;
+  text-shadow: 0.25rem 0.15rem black;
+  margin-bottom:1.6rem;
+}
+
+.btn-danger{
+  position:relative;
+  left:13rem;
+  margin-top: 1.5rem;
+  font-weight:bolder;
+}
